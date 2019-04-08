@@ -1,4 +1,0 @@
----
-
-- name: Include configure specific routing tasks
-  include_tasks: "{{ role_path }}/tasks/aws_vpn/responder/configure_vpn_{{ cloud_vpn_routing }}.yaml"
